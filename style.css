@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-color: rgba(213, 213, 215, 0.892);
+  font-family:'Times New Roman', Times, sans-serif;
+  color:black;
+  font-size: 15px;
+  line-height: 2;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+.container{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+
+}
+
+.list-inline>li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+h2{
+  color: darkseagreen;
+}
+
+a{
+  background-color: rgb(101, 101, 223);
+  padding: 5px 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  color:white;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.list-inline>li>a{
+  background-color: rgb(101, 101, 223,0.2);
+}
+
+a:hover {
+  background-color: black;
+}
+
+.list-inline>li>a:hover{
+  background-color: black;
+}
+
+@media (max-width: 960px) {
+
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
